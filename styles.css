@@ -1,3 +1,26 @@
+body {
+    background-color: #000b3d;
+}
+
 #logo {
-    max-height: 70px;
+    max-height: 30px;
+}
+
+#banner {
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+#profile {
+    max-height: 150px;
+}
+
+#logoDeEmpresa, 
+#logoDeInstitucion {
+    max-height: 100px;
+}
+
+
+#habilidades {
+    max-height: 150px;
 }
