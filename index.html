@@ -20,59 +20,84 @@
   </head>
   <body class="bg-dark text-light">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark py-0">
-      <div class="container-fluid">
-        <a class="navbar-brand p-0" href="#">
-          <img src="media/logo.png" alt="Logo de página" id="logo">
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-2">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="media/logo-final.png" alt="Logo de página" id="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto me-lg-4 mb-4 mb-lg-0">
+          <ul class="navbar-nav ms-auto me-2">
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <i class="fa-brands fa-instagram fa-lg"></i>
+                <i class="fa-brands fa-instagram"></i>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <i class="fa-brands fa-github fa-lg"></i>
+                <i class="fa-brands fa-github"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fa-brands fa-linkedin fa-lg"></i>
+              <a class="nav-link me-3" href="#">
+                <i class="fa-brands fa-linkedin"></i>
               </a>
             </li>
           </ul>
-          <button class="btn btn-outline-light" type="button">Login</button>
+          <button class="btn btn-dark" type="button">Login</button>
         </div>
       </div>
     </nav>
 
-    <main>
+    <main class="container">
       <!-- Acerca de... -->
       <section id="acercaDe">
-        <div class="container-fluid">
-          <img class="img-fluid rounded-2" src="media/banner.png" alt="Banner de página" id="banner">
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 d-flex flex-column align-items-center">
+          <img class="img-fluid rounded-4" src="media/banner2.jpg" alt="Banner de página" id="banner">
+          <div class="row pt-lg-3">
+            <div class="col-lg-3 d-flex flex-column align-items-center profile">
               <img class="img-fluid rounded-circle" src="media/profile.jpeg" alt="Foto de perfil" id="profile">
-              <h4 class="my-4">Maximiliano Rodriguez</h4>
+              <h3 class="mt-3 mb-0 text-center">Maximiliano<br>Rodriguez</h3>
             </div>
-            <div class="col-lg-19 d-flex flex-column justify-content-center w-75 mx-auto">
+            <div class="col-lg-9 d-flex flex-column justify-content-center mx-auto">
               <h2 class="display-5">Acerca de...</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius asperiores obcaecati sunt reprehenderit non, dicta placeat quae cumque, consequuntur sit. Veniam adipisci alias excepturi ut, autem quos incidunt unde.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quae similique repellendus deserunt commodi deleniti error illum beatae rerum, odio soluta quasi, molestiae accusamus et impedit. Tempore accusantium sit qui ratione placeat fuga consequuntur quibusdam. Fuga, tempora qui quaerat, alias, nulla recusandae ipsum optio aperiam sed deserunt pariatur doloremque natus?</p>
             </div>
           </div>
-        </div>
       </section>
 
       <!-- Experiencia -->
-      <section id="experiencia"></section>
+      <section id="experiencia">
+        <h2 class="display-5">Experiencia</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-fluid" src="media/banner.png" alt="Imagen de empresa">
+          </div>
+          <div class="col-lg-8">
+            <h3>Nombre de empresa</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis beatae sit eveniet saepe error voluptas accusamus consequatur maxime totam, nisi voluptatibus tenetur commodi, corrupti animi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-fluid" src="media/banner.png" alt="Imagen de empresa">
+          </div>
+          <div class="col-lg-8">
+            <h3>Nombre de empresa</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis beatae sit eveniet saepe error voluptas accusamus consequatur maxime totam, nisi voluptatibus tenetur commodi, corrupti animi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-fluid" src="media/banner.png" alt="Imagen de empresa">
+          </div>
+          <div class="col-lg-8">
+            <h3>Nombre de empresa</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis beatae sit eveniet saepe error voluptas accusamus consequatur maxime totam, nisi voluptatibus tenetur commodi, corrupti animi.</p>
+          </div>
+        </div>
+      </section>
       <!-- Educacion -->
       <section id="educacion"></section>
       <!-- Habilidades -->
