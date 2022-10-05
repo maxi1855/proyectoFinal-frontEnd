@@ -28,7 +28,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse pb-2 pb-lg-0" id="navbarSupportedContent">
           <ul class="navbar-nav flex-row justify-content-around my-2 ms-lg-auto me-lg-3 my-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="#">
@@ -55,8 +55,20 @@
 
     <!-- Acerca de -->
     <section id="acercaDe">
+      <div class="container gx-0">
+        <img src="img/banner.jpg" alt="Banner de página" id="banner">
+      </div>
       <div class="container">
-        <img class="img-fluid" src="img/banner.jpg" alt="Banner de página">
+        <div class="row">
+          <div class="col-lg-4 d-flex flex-column align-items-center text-center">
+            <img class="rounded-circle" src="img/profile.jpeg" alt="Foto de perfil" id="profile">
+            <h3>Maximiliano<br>Rodriguez</h3>
+          </div>
+          <div class="col-lg-8 d-flex flex-column justify-content-center">
+            <h2 class="display-6">Acerca de</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia cumque, esse doloremque quod vero dolore adipisci explicabo deserunt eum iusto voluptate, magnam sit ipsum cum quibusdam placeat dignissimos. Nemo, autem!</p>
+          </div>
+        </div>
       </div>
     </section>
 
