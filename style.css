@@ -1,5 +1,20 @@
+:root {
+  --blueViolet: #7400d3f3;
+  --transparentCyan: #408db1f1;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+  padding-top: 61px;
+  background: rgb(210, 204, 215);
+  background: linear-gradient(
+    0deg,
+    rgb(232, 201, 255) 0%,
+    rgb(188, 255, 254) 100%
+  );
+}
+nav {
+  background-color: var(--blueViolet);
 }
 
 #logo {
@@ -15,5 +30,5 @@ body {
 
 #profile {
   width: 50%;
-  object-fit: cover;
+  max-width: 150px;
 }
